@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-27",
+  "note": "Координаты и цифры взяты из открытых источников (ссылки в sources). Маршрут с verified=false показывается, но не предлагается для планирования, пока команда не заполнит координаты через tools/fetch_routes.py и не проверит их.",
+  "routes": [
+    {
+      "id": "kok-zhailau",
+      "name": "Кок-Жайляу",
+      "subtitle": "Плато с видом на город из Большого Алматинского ущелья",
+      "difficulty": 2,
+      "min_experience": 0,
+      "hours_min": 5,
+      "hours_max": 7,
+      "max_ele_m": null,
+      "length_km": null,
+      "exposed_ridge": false,
+      "access": "open",
+      "access_verified_at": "2026-09-27",
+      "verified": true,
+      "points": [
+        { "name": "Экопост нацпарка", "role": "start", "lat": 43.12846, "lon": 76.90640 },
+        { "name": "Верхний шлагбаум, парковка", "role": "waypoint", "lat": 43.12905, "lon": 76.95326 },
+        { "name": "Поляна Кок-Жайляу", "role": "top", "lat": 43.14239, "lon": 77.00433 },
+        { "name": "Водопад Кок-Жайляу", "role": "waypoint", "lat": 43.14015, "lon": 77.00854 }
+      ],
+      "how_to_get": "Старт у экопоста Иле-Алатауского нацпарка в Большом Алматинском ущелье. Через 300 м после шлагбаума поверните налево по асфальту, по мосту через реку въезжайте в посёлок Казачка и двигайтесь до конца посёлка, дальше вверх по ущелью. На машине можно доехать до верхнего шлагбаума. Пешком — около 4–5 км по асфальту до отеля «Кумбель», там шлагбаум и стоянка.",
+      "risks": [
+        "Первый подъём крутой — новичкам бывает тяжело, идите в своём темпе",
+        "Указатели есть не везде — держитесь основной тропы",
+        "Открытое плато: солнце, ветер, быстрая смена погоды",
+        "Весной и в начале лета — клещи"
+      ],
+      "fee_note": "Вход в нацпарк платный, тариф в МРП и меняется ежегодно. Оплатить можно на КПП или по QR-коду на маршруте.",
+      "sources": [
+        { "title": "Tengri Travel: Экопост — Кок-Жайляу", "url": "https://tengrinews.kz/zailiyskiy-alatau-routes/ekopost-kok-jaylyau-ak-bulak-448572/" },
+        { "title": "Freedom Travel: 10 маршрутов выходного дня", "url": "https://freedom-travel.kz/media/selection/10-peshih-marshrutov-almaty/" },
+        { "title": "Bes.media: оплата входа по QR на Кок-Жайляу", "url": "https://bes.media/amp/almatintsy-vozmutilis-platnym-prohodom-na-kok-zhaylyau-dlya-peshehodov/" }
+      ]
+    },
+    {
+      "id": "furmanov",
+      "name": "Пик Фурманова",
+      "subtitle": "Вершина 3053 м над Медеу, качели по пути",
+      "difficulty": 3,
+      "min_experience": 1,
+      "hours_min": 6,
+      "hours_max": 7,
+      "max_ele_m": 3053,
+      "length_km": 16,
+      "exposed_ridge": true,
+      "access": "open",
+      "access_verified_at": null,
+      "verified": false,
+      "points": [],
+      "how_to_get": "Начало у домика егеря, примерно в 1,5 км от катка «Медеу».",
+      "risks": [
+        "Высота около 3000 м — возможны признаки горной болезни",
+        "Открытый гребень: ветер и грозы во второй половине дня",
+        "Длинный спуск — нагрузка на колени"
+      ],
+      "fee_note": "Территория Иле-Алатауского нацпарка, вход платный.",
+      "sources": [
+        { "title": "Sxodim: 6 горных маршрутов выходного дня", "url": "https://sxodim.com/almaty/article/6-gornyh-marshrutov-vyhodnogodnya/amp" }
+      ]
+    },
+    {
+      "id": "mynzhylky",
+      "name": "Плато Мынжылкы",
+      "subtitle": "Высокогорное плато около 3000 м выше Шымбулака",
+      "difficulty": 3,
+      "min_experience": 1,
+      "hours_min": 2,
+      "hours_max": 3,
+      "max_ele_m": 3000,
+      "length_km": null,
+      "exposed_ridge": false,
+      "access": "open",
+      "access_verified_at": null,
+      "verified": false,
+      "points": [],
+      "how_to_get": "Путь начинается от курорта «Шымбулак». От Медеу можно доехать на автобусе или экотакси.",
+      "risks": [
+        "Высота около 3000 м: холодно даже летом",
+        "Быстрая смена погоды и туман",
+        "Признаки горной болезни у тех, кто не бывал выше 2000 м"
+      ],
+      "fee_note": "Территория Иле-Алатауского нацпарка, вход платный.",
+      "sources": [
+        { "title": "Sxodim: 6 горных маршрутов выходного дня", "url": "https://sxodim.com/almaty/article/6-gornyh-marshrutov-vyhodnogodnya/amp" }
+      ]
+    }
+  ]
+}

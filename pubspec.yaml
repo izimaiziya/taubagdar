@@ -1,0 +1,70 @@
+name: taubagdar
+description: "TauBağdar — горный ориентир для Алматы. Алан помогает спланировать поход и вернуться домой."
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # состояние и навигация
+  flutter_riverpod: ^3.0.0
+  go_router: ^14.6.2
+
+  # интерфейс
+  flutter_animate: ^4.5.2
+  intl: any # версию задаёт flutter_localizations
+
+  # карта
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+
+  # данные и сеть
+  http: ^1.2.2
+  shared_preferences: ^2.3.3
+  supabase_flutter: ^2.8.0
+
+  # системные функции
+  url_launcher: ^6.3.1
+  geolocator: ^13.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/alan/
+    - assets/brand/
+    - assets/data/
+    - assets/licenses/
+
+  fonts:
+    # Заголовки: Montserrat Alternates (поддерживает казахскую кириллицу)
+    - family: MontserratAlternates
+      fonts:
+        - asset: assets/fonts/MontserratAlternates-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/MontserratAlternates-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/MontserratAlternates-ExtraBold.ttf
+          weight: 800
+    # Текст: Onest (поддерживает казахскую кириллицу)
+    - family: Onest
+      fonts:
+        - asset: assets/fonts/Onest-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Onest-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Onest-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Onest-Bold.ttf
+          weight: 700
